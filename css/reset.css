@@ -1,0 +1,233 @@
+/* ========== CSS RESET ========== */
+/* Basado en normalización moderna para todos los navegadores */
+
+/* 1. Eliminar márgenes y rellenos por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* 2. HTML y Body */
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, sans-serif;
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+}
+
+/* 3. Tipografía - Headings */
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+h5 {
+    font-size: 1.1rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+/* 4. Párrafos y Texto */
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* 5. Listas */
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+/* 6. Formularios */
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+input,
+textarea,
+select {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+    opacity: 1;
+}
+
+/* 7. Tablas */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 0;
+    text-align: left;
+    vertical-align: top;
+}
+
+/* 8. Media */
+img,
+picture,
+svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    border: 0;
+}
+
+/* 9. Métrica */
+article,
+aside,
+footer,
+header,
+nav,
+section {
+    display: block;
+}
+
+/* 10. Elementos en línea */
+em {
+    font-style: italic;
+}
+
+strong {
+    font-weight: 700;
+}
+
+small {
+    font-size: 0.875rem;
+}
+
+mark {
+    background-color: transparent;
+    color: inherit;
+}
+
+/* 11. Blockquote y código */
+blockquote {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, monospace;
+    font-size: 1rem;
+}
+
+/* 12. Elementos de formulario específicos */
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+legend {
+    padding: 0;
+    display: table;
+}
+
+label {
+    display: block;
+    cursor: pointer;
+}
+
+/* 13. Cursor y Focus */
+button,
+a,
+input[type="button"],
+input[type="submit"],
+select {
+    cursor: pointer;
+}
+
+:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 2px;
+}
+
+/* 14. Hr */
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid currentColor;
+    margin: 1rem 0;
+    padding: 0;
+}
